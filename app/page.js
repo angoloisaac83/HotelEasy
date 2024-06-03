@@ -1,10 +1,10 @@
 // import Image from "next/image";
 import React from 'react';
-import Layout from './components/landingPage/layout.jsx';
+import Vendor from './components/assets/vendor/page';
 export default function Home() {
   return (
     <>
-      <Layout />
+      <Vendor />
     </>
   );
 }
